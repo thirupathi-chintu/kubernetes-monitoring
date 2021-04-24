@@ -6,14 +6,6 @@ You can find the full tutorial from here https://devopscube.com/setup-prometheus
 
 Idea of this repo to understand all the components involved in prometheus setup.
 
-# Other Manifest repos
 
-Kube State metrics manifests: https://github.com/bibinwilson/kube-state-metrics
-
-Alert manager Manifests: https://github.com/bibinwilson/kubernetes-alert-manager
-
-Grafana manifests: https://github.com/bibinwilson/kubernetes-grafana
-
-Node Exporter manifests: https://github.com/bibinwilson/kubernetes-node-exporter
 
 
