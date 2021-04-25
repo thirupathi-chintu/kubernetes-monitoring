@@ -26,3 +26,5 @@ kubectl -n monitoring get secret prometheus-grafana -o jsonpath='{.data.admin-us
 
 
 kubectl expose deploy kibana --type=NodePort --name=kibana1 -n logging
+
+https://www.vaultproject.io/docs/platform/k8s/helm
