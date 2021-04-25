@@ -25,4 +25,4 @@ kubectl -n monitoring get secret prometheus-grafana -o jsonpath='{.data.admin-pa
 kubectl -n monitoring get secret prometheus-grafana -o jsonpath='{.data.admin-user}' | base64 --decode
 
 
-kubectl expose deploy kibana --type=NodePort --name=kibana -n logging
+kubectl expose deploy kibana --type=NodePort --name=kibana1 -n logging
